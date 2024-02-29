@@ -1,0 +1,382 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.header_logo{
+margin: 0 auto;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+flex-direction: column;
+}
+
+.button img{
+    width: 400px;
+    height: 400px;
+}
+
+.magazine_left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.magazine{
+   width: 1680px;
+   margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+.magazine_right{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;   
+    gap: 5px;
+}
+
+.level_1{
+    display: flex;
+    text-align: center;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 150px;
+        border: solid 1px black;
+        background-color: rgb(219, 124, 9);
+        color: white;
+    }
+}
+.level_2{
+    display: flex;
+    text-align: center;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 150px;
+        border: solid 1px black;
+        background-color: rgb(219, 124, 9);
+        color: white;
+        
+    }
+}
+.level_3{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 150px;
+        border: solid 1px black;
+        background-color: rgb(219, 124, 9);
+        color: white;
+    }
+}
+.clicker_avto{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 150px;
+        border: solid 1px black;
+        background-color: rgb(219, 124, 9);
+        color: white;
+    }
+}
+
+#btn_click{
+    border: solid 0px;
+    background-color: #fff;
+}
+#btn_click:active { 
+            transform: scale(0.98); 
+} 
+
+.upgrade_home{
+    border: solid 0px;
+    background-color: rgb(27, 22, 22);
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.magazine_center{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+}
+.magazine_1{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.magazine_1_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+
+.magazine_2_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_3_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_4_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_5_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_6_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_7_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_8_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_9_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_10_wrapper{
+    display: flex;
+    align-items: start;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 3px;
+    background-color: antiquewhite;
+}
+.magazine_2{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_3{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_4{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_5{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_6{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_7{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_8{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_9{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.magazine_10{
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.level_1_magazine{
+display: flex;
+align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+      background-color: rgb(219, 124, 9);
+}
+.level_2_magazine{
+display: flex;
+align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_3_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_4_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_5_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_6_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_7_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_8_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_9_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
+.level_10_magazine{
+    display: flex;
+    align-items: center;
+    img{
+       width: 40px;
+       height: 40px;
+    }
+  background-color: rgb(219, 124, 9);
+}
